@@ -1,0 +1,35 @@
+.schema-container {
+  display: flex;
+  width: 100%;
+  /* height: calc(100vh - 80px);  */
+}
+
+.builder-pane {
+  flex: 1;
+  padding: 24px;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
+
+.preview-pane {
+  flex: 1;
+  padding: 24px;
+  background-color: #1e1e1e;
+  color: #f8f8f2;
+  font-family: monospace;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+.field-row {
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: 2px solid #eee;
+  margin-bottom: 8px;
+}
+
+.field-inline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
